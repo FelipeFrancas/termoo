@@ -1,0 +1,62 @@
+body {
+    background-color: #222;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: auto;
+  }
+  
+  #board {
+    display: grid;
+    grid-template-columns: repeat(5, 60px);
+    gap: 8px;
+    margin: 20px 0;
+    justify-content: center;
+  }
+  
+  .celula {
+    width: 60px;
+    height: 60px;
+    background-color: #444;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  
+  .verde {
+    background-color: #4caf50;
+  }
+  
+  .amarelo {
+    background-color: #ffeb3b;
+    color: #000;
+  }
+  
+  .cinza {
+    background-color: #888;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    width: 160px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
